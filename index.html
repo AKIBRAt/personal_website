@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games facts</title>
+</head>
+<body>
+    <nav class="nav">
+        <a class ="link" target="_blank" href="https://www.fortnite.com/">omiljena igrica</a>
+        <a class="link" target="_blank" href="https://www.youtube.com/watch?v=7-VEPjqchak">omiljena pesma</a>
+        <a class="link" href="omeni.html">O meni</a>
+        <a class="link" target="_blank" href="https://www.youtube.com/@akibrat3744">moj youtube kanal</a>
+        <a class="link" href="joystici.html">moji joystici</a>
+    </nav>
+
+    <nav id="nav-mobile" class="nav-mobile">
+        <a class ="link-mobile" target="_blank" href="https://www.fortnite.com/">omiljena igrica</a>
+        <a class="link-mobile" target="_blank" href="https://www.youtube.com/watch?v=7-VEPjqchak">omiljena pesma</a>
+        <a class="link-mobile" href="omeni.html">O meni</a>
+        <a class="link-mobile" target="_blank" href="https://www.youtube.com/@akibrat3744">moj youtube kanal</a>
+        <a class="link-mobile" href="joystici.html">moji joystici</a>
+    </nav>
+
+    <a href="javascript:void(0);" onClick="myFunction();">
+<img class="slikaIkonice" src="Hamburger_icon.svg.png"/>
+
+    </a>
+
+
+    </nav>
+      <h1>Dobro dosli na moj sajt/welcome to my site</h1>
+      <h2>Ja se zovem Aleksej Rodic/my name is Aleksej Rodic</h2>
+      <p></p>  
+      <h3>Moja kolekcija igrica i joystick-a</h3>
+      <div class="slike">
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg" alt=""/>
+            <h5 class="opis-igre">Red Dead redeption 2 ili skraćeno:RDR2 je igrica koja je osnovana 2018. godine od Rockstar games-a.U ovoj igrici vi ste kauboj koji rešava razne zadatke koji su vam zadati.
+
+            </h5>
+        </div>
+
+        <div>
+            <img src="slika1.jpg"/>
+            <h5 class="opis-igre">Borderlands 3 je akciona video igrica pucačina iz prvog lica iz 2019. koju je razvio Gearbox Software i objavio 2K. To je nastavak Borderlands 2 iz 2012. i četvrti unos u glavnoj seriji Borderlands. Borderlands 3 je objavljen 13. septembra 2019. za PlayStation 4, Windows i Xbox One, a objavljen za macOS 30. oktobra 2019.
+            </h5>
+        </div>   
+
+        <div>
+            <img src="https://m.media-amazon.com/images/M/MV5BNzU2YTY2OTgtZGZjZi00MTAyLThlYjUtMWM5ZmYzOGEyOWJhXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg" alt="">   
+            <h5 class="opis-igre">Fortnite je onlajn igrica preživljavanja razvijena od strane Epic Games i People Can Fly, a nakon toga objavljena od strane Epic Games-a. Igra je izdata 25. jula 2017. godine kao plaćena rana verzija za Windows, MacOS, PlayStation 4 i Xbox One.Svoju najveću popularnost dostigla je u 2018. godini kada je postala besplatna za igranje.
+            </h5>
+        </div>
+
+
+
+
+        <div>
+            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202307/2708/28833b618429cfe5f65d24ea11933ae62e3308ea7d2015be.png" alt="">
+            <h5 class="opis-igre">The Crew 2 je onlajn trkačka video igra za 2018. koju je razvio Ubisoft Ivory Tower, a objavio Ubisoft za PlayStation 4, Windows, Xbox One i Google Stadia. To je nastavak filma The Crew iz 2014. Sadrži okruženje otvorenog sveta za slobodnu kretnju kroz smanjenu rekreaciju Sjedinjenih Američkih Država. Igra omogućava igračima da voze različita vozila,automobile, motocikle, čamce i avione.
+            </h5>
+        </div>
+    </div>
+    <script>
+        function myFunction(){
+            var navigacija=document.getElementById("nav-mobile")
+            if(navigacija.style.display==="flex"){
+
+                navigacija.style.display="none";
+            }
+            else{
+                navigacija.style.display="flex";
+                navigacija.style.position="absolute";   
+                navigacija.style.left = "-5px";
+                navigacija.style.top = "80px";
+                navigacija.style.justifyContent= "center";
+                navigacija.style.alignContent="center";
+                navigacija.style.width= "100vw";
+                navigacija.style.height= "100vh";
+                navigacija.style.fontSize ="25px";
+            }
+
+
+
+
+
+
+        }
+
+
+
+
+    </script>
+
+
+    </body>
